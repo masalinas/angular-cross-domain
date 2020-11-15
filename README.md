@@ -28,11 +28,11 @@ ng serve --port=4202
 
 ![02](https://user-images.githubusercontent.com/1216181/99190741-a39d2900-2768-11eb-8772-08849b1ba4b0.png)
 
-### Check that the same token created is showed on the 'Portal 01' domain: 'http://localhost:4201'
+### Check that the same token created is also showed on the 'Portal 01' domain: 'http://localhost:4201'
 
 ![03](https://user-images.githubusercontent.com/1216181/99190770-c596ab80-2768-11eb-8687-5446d3d2974e.png)
 
-### Check all local storage domains. The 'Main Portal' and 'Portal 01' local storage domains show the same token created before
+### Check all local storage domains. The 'Main Portal' and 'Portal 01' local storage domains show the same token created before. The token was propagated to the 'Portal 01' local storage from main domain.
 
 ![TF](https://user-images.githubusercontent.com/1216181/99189614-54ec9080-2762-11eb-9239-9fe2539e1035.png)
 
