@@ -24,7 +24,7 @@ ng serve --port=4202
 
 ![Main_Domain_LocalStorage](https://user-images.githubusercontent.com/1216181/99189491-b8c28980-2761-11eb-95ca-da19fc8b40d3.png)
 
-### Click on the first Domain 'GSCC 01' and check that a new token is created on the main domains: 'http://localhost:4200'
+### Click on the first Domain 'Portal 01' and check that a new token is created on the main domains: 'http://localhost:4200'
 
 ![02](https://user-images.githubusercontent.com/1216181/99190741-a39d2900-2768-11eb-8772-08849b1ba4b0.png)
 
