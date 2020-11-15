@@ -20,11 +20,24 @@ export class AppComponent {
   constructor() {
     this.portals = environment.portals;
 
+    // get Portal Domain
+    this.getDomain('//' + window.location.host);
+
+    // get Portal Token
     this.getToken();
   }
 
   ngAfterViewInit() {
     this.createTokenIframes();
+  }
+
+  getDomain(url) {
+    let portal = this.portals.find(tokenFrame => tokenFrame.url == url);
+
+    if (portal)
+      this.title = this.title + ' from ' + portal.code + ' Domain';
+    else
+      this.title = this.title + ' from Main Domain' ;
   }
 
   getToken() {

@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  portals: [{code: 'GSCC 01', url: '//localhost:4201', iframe: '//localhost:4201/helper.html'}, 
-            {code: 'GSCC 02', url: '//localhost:4202', iframe: '//localhost:4202/helper.html'}]
+  portals: [{code: 'Portal 01', url: '//localhost:4201', iframe: '//localhost:4201/helper.html'}, 
+            {code: 'Portal 02', url: '//localhost:4202', iframe: '//localhost:4202/helper.html'}]
 };
 
 /*

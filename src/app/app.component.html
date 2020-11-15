@@ -1,3 +1,5 @@
+<h1>{{title}}</h1>
+
 <div class="p-d-flex">
     <div class="p-mb-2" *ngFor="let portal of portals">
         <button style="margin: 10px" pButton type="button" label="Set {{portal.code}} Token" (click)="onclick($event, portal)">    
