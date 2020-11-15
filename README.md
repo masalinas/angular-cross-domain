@@ -2,7 +2,7 @@
 Angular PoC Token Local Storage Cross Domain
 
 # Description
-In this PoC We could demostrate how with can propagate a token to any domain resolving the browser policy called: 'local storage cross domain' using iframes and the [API postMessage](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) in Angular
+In this PoC We could demostrate how with can propagate a token to any domain resolving the browser Web Storage API Policy called: 'local storage cross domain' using iframes and the [API postMessage](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) in Angular
 
 # Running
 ### Start the main domain
